@@ -1,22 +1,22 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 interface CryptoState {
-  selectedAsset: string
+  selectedAssets: string[] // ahora un array
 }
 
 const initialState: CryptoState = {
-  selectedAsset: '',
+  selectedAssets: [],
 }
 
 export const cryptoSlice = createSlice({
   name: 'crypto',
   initialState,
   reducers: {
-    setSelectedAsset(state, action: PayloadAction<string>) {
-      state.selectedAsset = action.payload
+    setSelectedAssets(state, action: PayloadAction<string[]>) {
+      state.selectedAssets = action.payload
     },
   },
 })
 
-export const { setSelectedAsset } = cryptoSlice.actions
+export const { setSelectedAssets } = cryptoSlice.actions
 export default cryptoSlice.reducer

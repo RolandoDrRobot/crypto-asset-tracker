@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux'
-import { setSelectedAsset } from '../redux/cryptoSlice'
+import { setSelectedAssets } from '../redux/cryptoSlice'
 
 const assets = [
   { id: 'bitcoin', name: 'Bitcoin (BTC)' },
@@ -11,20 +11,21 @@ export function CryptoSelector() {
   const dispatch = useDispatch()
 
   function handleChange(e: React.ChangeEvent<HTMLSelectElement>) {
-    dispatch(setSelectedAsset(e.target.value))
+    const selectedOptions = Array.from(e.target.selectedOptions).map(option => option.value)
+    dispatch(setSelectedAssets(selectedOptions))
   }
 
   return (
     <div>
-      <label className="text-lg font-medium">Select Crypto Asset:</label>
-      <select onChange={handleChange} className="ml-4 p-2 rounded border">
-        <option value="">Select...</option>
+      <label className="text-lg font-medium">Select Crypto Asset(s):</label>
+      <select onChange={handleChange} className="ml-4 p-2 rounded border" multiple>
         {assets.map(asset => (
           <option key={asset.id} value={asset.id}>
             {asset.name}
           </option>
         ))}
       </select>
+      <p className="text-sm text-gray-500 mt-2">Hold Ctrl (Windows) or Cmd (Mac) to select two assets.</p>
     </div>
   )
 }
