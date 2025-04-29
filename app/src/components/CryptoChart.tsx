@@ -14,7 +14,6 @@ export function CryptoChart() {
   if (selectedAssets.length === 0) return <div>Select at least one crypto asset to view data.</div>
   if (loading1 || (selectedAssets[1] && loading2)) return <div>Loading data...</div>
 
-  // Fusionar los datos por fecha
   const mergedData = (data1 || []).map((item, index) => ({
     date: item.date,
     price1: item.price,

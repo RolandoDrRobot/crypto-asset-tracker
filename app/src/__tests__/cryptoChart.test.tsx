@@ -56,7 +56,7 @@ describe('CryptoChart', () => {
         <CryptoChart />
       </Provider>
     )
-    // Usar un selector más robusto para encontrar el dropdown
+
     const select = screen.getByRole('combobox')
     fireEvent.change(select, { target: { value: '30' } })
     expect((select as HTMLSelectElement).value).toBe('30')
