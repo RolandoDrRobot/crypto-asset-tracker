@@ -62,3 +62,7 @@ The project includes unit tests to verify the behavior of the business logic and
 3. Make your changes and commit them (git commit -m 'Add new feature').
 4. Push the branch (git push origin feature/new-feature).
 5. Create a Pull Request.
+
+## Screenshot
+![Captura de pantalla 2025-04-28 a la(s) 9 14 25 p  m](https://github.com/user-attachments/assets/74200fc8-4549-45b5-b58d-9d1106e96c8f)
+
