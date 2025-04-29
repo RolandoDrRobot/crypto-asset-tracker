@@ -13,7 +13,7 @@ Additionally, the project includes the option to connect a self-custody wallet s
 - **Cache Storage**: Utilizes the local storage of the browser to avoid re-fetching data constantly.
 - **Interactive Chart**: Displays the performance of the selected asset in a line chart (using Recharts).
 - **Performance Comparison**: Allows comparing the performance of the selected asset between different time periods (week, month, year).
-- **Unit Tests**: Includes unit tests for business logic and UI.
+- **Unit Tests**: Includes unit tests for business logic.
 
 ## Requirements
 
