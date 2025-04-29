@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 interface CryptoState {
-  selectedAssets: string[] // ahora un array
+  selectedAssets: string[]
 }
 
 const initialState: CryptoState = {
