@@ -68,3 +68,4 @@ The project includes unit tests to verify the behavior of the business logic.
 ## Screenshot
 ![Captura de pantalla 2025-04-28 a la(s) 9 14 25 p  m](https://github.com/user-attachments/assets/74200fc8-4549-45b5-b58d-9d1106e96c8f)
 
+<img width="926" alt="Captura de pantalla 2025-04-29 a la(s) 1 05 10 a  m" src="https://github.com/user-attachments/assets/6c6e578f-84b0-4fcc-a87f-777647f046c8" />
