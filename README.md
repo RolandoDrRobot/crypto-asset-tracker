@@ -29,6 +29,7 @@ Clone this repository to your local machine, install the dependencies:
    git clone https://github.com/your-username/crypto-asset-tracker.git
    cd crypto-asset-tracker
    npm install
+   npm run dev
   ```
 
 ## Usage
@@ -45,9 +46,10 @@ Clone this repository to your local machine, install the dependencies:
 - Recharts: A charting library for React.
 - Axios: An HTTP client for making API requests.
 - CoinGecko API: A public API for fetching cryptocurrency data.
+- Jest: for testing purporses
 
 ## Additional Features
-MetaMask Support: If you implement MetaMask integration, users are able to connect their wallets and view the performance of the assets they own in the wallet.
+MetaMask Support: Users are able to connect their wallets.
 
 ## Test
 The project includes unit tests to verify the behavior of the business logic.
