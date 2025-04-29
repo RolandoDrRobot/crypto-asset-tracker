@@ -53,7 +53,7 @@ MetaMask Support: If you implement MetaMask integration, users are able to conne
 The project includes unit tests to verify the behavior of the business logic and UI.
 
   ```bash
-   npm run test
+   npx jest 
   ```
 
 ## Contributing
