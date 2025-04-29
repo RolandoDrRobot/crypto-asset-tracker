@@ -4,7 +4,7 @@
 
 Crypto Asset Tracker is a cryptocurrency tracking application that allows users to select a crypto asset symbol (like BTC, ETH, etc.) and view the performance of that asset over different time intervals (week, month, year). Data is fetched from a public API, stored in local storage to avoid frequent reloads, and visualized in interactive charts using Recharts.
 
-Additionally, the project includes the option to connect a self-custody wallet such as MetaMask or Trust Wallet, allowing users to view the performance of the assets in their wallet.
+Additionally, the project includes the option to connect a self-custody wallet such as MetaMask, allowing users to view the performance of the assets in their wallet.
 
 ## Features
 
@@ -19,7 +19,7 @@ Additionally, the project includes the option to connect a self-custody wallet s
 
 To run the project on your local machine, make sure you have:
 
-- [Node.js](https://nodejs.org/en/) v16 or higher
+- [Node.js](https://nodejs.org/en/) v20 or higher
 
 ## Installation
 
@@ -50,7 +50,7 @@ Clone this repository to your local machine, install the dependencies:
 MetaMask Support: If you implement MetaMask integration, users are able to connect their wallets and view the performance of the assets they own in the wallet.
 
 ## Test
-The project includes unit tests to verify the behavior of the business logic and UI.
+The project includes unit tests to verify the behavior of the business logic.
 
   ```bash
    npx jest 
